@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## v7.0.0 - 2026-07-09
 
 - Arithmetic in bit array pattern segment sizes can now be parsed.
 - `BitStringSegmentOption` now takes a type parameter for `SizeValueOption`.
