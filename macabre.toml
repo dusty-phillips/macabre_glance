@@ -1,0 +1,20 @@
+name = "glance"
+version = "0.0.0"
+
+[dependencies]
+gleam_stdlib = { git = "git@github.com:dusty-phillips/macabre_stdlib.git", ref = "main" }
+glexer = { git = "git@github.com:dusty-phillips/macabre_glexer.git", ref = "main" }
+
+[dev-dependencies]
+argv = { git = "git@github.com:dusty-phillips/macabre_argv.git", ref = "main" }
+edit_distance = { git = "git@github.com:dusty-phillips/macabre_edit_distance.git", ref = "main" }
+filepath = { git = "git@github.com:dusty-phillips/macabre_filepath.git", ref = "main" }
+gleam_community_ansi = { git = "git@github.com:dusty-phillips/macabre_ansi.git", ref = "main" }
+gleam_erlang = ">= 0.25.0 and < 1.0.0"
+gleeunit = { git = "git@github.com:dusty-phillips/macabre_gleeunit.git", ref = "main" }
+justin = ">= 1.0.1 and < 2.0.0"
+pprint = { git = "git@github.com:dusty-phillips/macabre_pprint.git", ref = "main" }
+rank = ">= 1.0.0 and < 2.0.0"
+simplifile = { git = "git@github.com:dusty-phillips/macabre_simplifile.git", ref = "main" }
+term_size = { git = "git@github.com:dusty-phillips/macabre_term_size.git", ref = "main" }
+trie_again = { git = "git@github.com:dusty-phillips/macabre_trie_again.git", ref = "main" }
